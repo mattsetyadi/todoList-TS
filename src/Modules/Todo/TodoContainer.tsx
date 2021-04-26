@@ -2,6 +2,8 @@ import React, { ChangeEvent, FC, useState } from 'react';
 
 import Todotask from './Todotask';
 
+// jika ingin memasukan kumpulan state menjadi objek ke array harus dibuat interface nya
+// ini untuk memasukan objek task dan deadline ke todoList di setTodoList
 export interface ITask {
   taskName: string;
   deadline: number;
